@@ -1,0 +1,142 @@
+strict digraph "<stdin>" {
+rankdir=TB
+b [label="B"]
+c [label="C"]
+algol68 [label="Algol 68"]
+assembly [label="Assembly"]
+pli [label="PL/I"]
+fortran [label="FORTRAN"]
+ampl [label="AMPL"]
+awk [label="AWK"]
+csh [label="CSH"]
+cplusplus [label="C++"]
+cminusminus [label="C--"]
+csharp [label="C#"]
+objectivec [label="Objective-C"]
+bitc [label="BitC"]
+d [label="D"]
+go [label="Go"]
+java [label="JAVA"]
+javascript [label="JavaScript"]
+limbo [label="Limbo"]
+lpc [label="LPC"]
+perl [label="Perl"]
+php [label="PHP"]
+pike [label="Pike"]
+processing [label="Processing"]
+tcl [label="TCL"]
+ksh [label="Korn Shell"]
+lua [label="Lua"]
+c99 [label="C99"]
+falcon [label="Falcon"]
+ada95 [label="Ada 95"]
+fsharp [label="F#"]
+java5 [label="Java 5"]
+nemerle [label="Nemerle"]
+vala [label="Vala"]
+tom [label="TOM"]
+objectivej [label="Objective-J"]
+minid [label="MiniD"]
+dscript [label="DScript"]
+python [label="Python"]
+ruby [label="Ruby"]
+ada2005 [label="Ada 2005"]
+beanshell [label="Bean Shell"]
+clojure [label="Clojure"]
+ecmascript [label="ECMA Script"]
+groovy [label="Groovy"]
+scala [label="Scala"]
+coffeescript [label="CoffeeScript"]
+jscriptnet [label="JScript .NET"]
+tiscript [label="TIScript"]
+stacklesspython [label="Stackless Python"]
+windowspowershell [label="Windows PowerShell"]
+perl6 [label="Perl 6"]
+radphp [label="RadPHP"]
+
+b->c
+algol68->c
+algol68->cplusplus
+assembly->c
+pli->c
+fortran->c
+c->ampl
+c->awk
+c->csh
+c->cplusplus
+c->cminusminus
+c->csharp
+c->objectivec
+c->bitc
+c->d
+c->go
+c->java
+c->javascript
+c->limbo
+c->lpc
+c->perl
+c->php
+c->pike
+awk->ampl
+awk->tcl
+awk->ksh
+awk->lua
+awk->perl
+cplusplus->perl
+cplusplus->lpc
+cplusplus->lua
+cplusplus->pike
+cplusplus->ada95
+cplusplus->java
+cplusplus->php
+cplusplus->d
+cplusplus->c99
+cplusplus->csharp
+cplusplus->falcon
+csharp->d
+csharp->fsharp
+csharp->java5
+csharp->nemerle
+csharp->vala
+java->csharp
+java->d
+java->ada2005
+java->beanshell
+java->csharp
+java->clojure
+java->ecmascript
+java->groovy
+java->jsharp
+java->javascript
+java->php
+java->processing
+java->python
+java->scala
+java->vala
+javascript->coffeescript
+javascript->jscriptnet
+javascript->objectivej
+javascript->tiscriptript
+python->d
+ruby->d
+objectivec->tom
+objectivec->java
+objectivec->objectivej
+d->minid
+d->dscript
+d->vala
+limbo->go
+limbo->stacklesspython
+lpc->pike
+perl->python
+perl->php
+perl->ruby
+perl->ecmascript
+perl->lpc
+perl->windowspowershell
+perl->javascript
+perl->falcon
+perl->perl6
+php->radphp
+tcl->php
+}
