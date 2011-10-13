@@ -1,5 +1,5 @@
 Programming Languages From C is a dot file to show how much Dennis Ritchie contributed to the computer world.
 
-It requires graphviz.
+It requires graphviz and make.
 
-To generate a PNG file from the dot file : dot -o languages_from_c.png -Tpng languages_from_c.dot
+To generate a PNG file from the dot file, type "make".
